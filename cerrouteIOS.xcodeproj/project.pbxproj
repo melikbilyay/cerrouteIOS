@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		249599A92CFCCA2000290FAB /* cerrouteIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249599A82CFCCA2000290FAB /* cerrouteIOSApp.swift */; };
+		249599AB2CFCCA2000290FAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249599AA2CFCCA2000290FAB /* ContentView.swift */; };
+		249599AD2CFCCA2300290FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 249599AC2CFCCA2300290FAB /* Assets.xcassets */; };
+		249599B02CFCCA2300290FAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 249599AF2CFCCA2300290FAB /* Preview Assets.xcassets */; };
+		249599BA2CFCCA2300290FAB /* cerrouteIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249599B92CFCCA2300290FAB /* cerrouteIOSTests.swift */; };
+		249599C42CFCCA2300290FAB /* cerrouteIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249599C32CFCCA2300290FAB /* cerrouteIOSUITests.swift */; };
+		249599C62CFCCA2300290FAB /* cerrouteIOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249599C52CFCCA2300290FAB /* cerrouteIOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		249599B62CFCCA2300290FAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2495999D2CFCCA2000290FAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 249599A42CFCCA2000290FAB;
+			remoteInfo = cerrouteIOS;
+		};
+		249599C02CFCCA2300290FAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2495999D2CFCCA2000290FAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 249599A42CFCCA2000290FAB;
+			remoteInfo = cerrouteIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		249599A52CFCCA2000290FAB /* cerrouteIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cerrouteIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		249599A82CFCCA2000290FAB /* cerrouteIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cerrouteIOSApp.swift; sourceTree = "<group>"; };
+		249599AA2CFCCA2000290FAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		249599AC2CFCCA2300290FAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		249599AF2CFCCA2300290FAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		249599B52CFCCA2300290FAB /* cerrouteIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cerrouteIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		249599B92CFCCA2300290FAB /* cerrouteIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cerrouteIOSTests.swift; sourceTree = "<group>"; };
+		249599BF2CFCCA2300290FAB /* cerrouteIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cerrouteIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		249599C32CFCCA2300290FAB /* cerrouteIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cerrouteIOSUITests.swift; sourceTree = "<group>"; };
+		249599C52CFCCA2300290FAB /* cerrouteIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cerrouteIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		249599A22CFCCA2000290FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		249599B22CFCCA2300290FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		249599BC2CFCCA2300290FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2495999C2CFCCA2000290FAB = {
+			isa = PBXGroup;
+			children = (
+				249599A72CFCCA2000290FAB /* cerrouteIOS */,
+				249599B82CFCCA2300290FAB /* cerrouteIOSTests */,
+				249599C22CFCCA2300290FAB /* cerrouteIOSUITests */,
+				249599A62CFCCA2000290FAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		249599A62CFCCA2000290FAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				249599A52CFCCA2000290FAB /* cerrouteIOS.app */,
+				249599B52CFCCA2300290FAB /* cerrouteIOSTests.xctest */,
+				249599BF2CFCCA2300290FAB /* cerrouteIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		249599A72CFCCA2000290FAB /* cerrouteIOS */ = {
+			isa = PBXGroup;
+			children = (
+				249599A82CFCCA2000290FAB /* cerrouteIOSApp.swift */,
+				249599AA2CFCCA2000290FAB /* ContentView.swift */,
+				249599AC2CFCCA2300290FAB /* Assets.xcassets */,
+				249599AE2CFCCA2300290FAB /* Preview Content */,
+			);
+			path = cerrouteIOS;
+			sourceTree = "<group>";
+		};
+		249599AE2CFCCA2300290FAB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				249599AF2CFCCA2300290FAB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		249599B82CFCCA2300290FAB /* cerrouteIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				249599B92CFCCA2300290FAB /* cerrouteIOSTests.swift */,
+			);
+			path = cerrouteIOSTests;
+			sourceTree = "<group>";
+		};
+		249599C22CFCCA2300290FAB /* cerrouteIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				249599C32CFCCA2300290FAB /* cerrouteIOSUITests.swift */,
+				249599C52CFCCA2300290FAB /* cerrouteIOSUITestsLaunchTests.swift */,
+			);
+			path = cerrouteIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		249599A42CFCCA2000290FAB /* cerrouteIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 249599C92CFCCA2300290FAB /* Build configuration list for PBXNativeTarget "cerrouteIOS" */;
+			buildPhases = (
+				249599A12CFCCA2000290FAB /* Sources */,
+				249599A22CFCCA2000290FAB /* Frameworks */,
+				249599A32CFCCA2000290FAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cerrouteIOS;
+			productName = cerrouteIOS;
+			productReference = 249599A52CFCCA2000290FAB /* cerrouteIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		249599B42CFCCA2300290FAB /* cerrouteIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 249599CC2CFCCA2300290FAB /* Build configuration list for PBXNativeTarget "cerrouteIOSTests" */;
+			buildPhases = (
+				249599B12CFCCA2300290FAB /* Sources */,
+				249599B22CFCCA2300290FAB /* Frameworks */,
+				249599B32CFCCA2300290FAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				249599B72CFCCA2300290FAB /* PBXTargetDependency */,
+			);
+			name = cerrouteIOSTests;
+			productName = cerrouteIOSTests;
+			productReference = 249599B52CFCCA2300290FAB /* cerrouteIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		249599BE2CFCCA2300290FAB /* cerrouteIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 249599CF2CFCCA2300290FAB /* Build configuration list for PBXNativeTarget "cerrouteIOSUITests" */;
+			buildPhases = (
+				249599BB2CFCCA2300290FAB /* Sources */,
+				249599BC2CFCCA2300290FAB /* Frameworks */,
+				249599BD2CFCCA2300290FAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				249599C12CFCCA2300290FAB /* PBXTargetDependency */,
+			);
+			name = cerrouteIOSUITests;
+			productName = cerrouteIOSUITests;
+			productReference = 249599BF2CFCCA2300290FAB /* cerrouteIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2495999D2CFCCA2000290FAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					249599A42CFCCA2000290FAB = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					249599B42CFCCA2300290FAB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 249599A42CFCCA2000290FAB;
+					};
+					249599BE2CFCCA2300290FAB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 249599A42CFCCA2000290FAB;
+					};
+				};
+			};
+			buildConfigurationList = 249599A02CFCCA2000290FAB /* Build configuration list for PBXProject "cerrouteIOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2495999C2CFCCA2000290FAB;
+			productRefGroup = 249599A62CFCCA2000290FAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				249599A42CFCCA2000290FAB /* cerrouteIOS */,
+				249599B42CFCCA2300290FAB /* cerrouteIOSTests */,
+				249599BE2CFCCA2300290FAB /* cerrouteIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		249599A32CFCCA2000290FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249599B02CFCCA2300290FAB /* Preview Assets.xcassets in Resources */,
+				249599AD2CFCCA2300290FAB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		249599B32CFCCA2300290FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		249599BD2CFCCA2300290FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		249599A12CFCCA2000290FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249599AB2CFCCA2000290FAB /* ContentView.swift in Sources */,
+				249599A92CFCCA2000290FAB /* cerrouteIOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		249599B12CFCCA2300290FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249599BA2CFCCA2300290FAB /* cerrouteIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		249599BB2CFCCA2300290FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249599C42CFCCA2300290FAB /* cerrouteIOSUITests.swift in Sources */,
+				249599C62CFCCA2300290FAB /* cerrouteIOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		249599B72CFCCA2300290FAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 249599A42CFCCA2000290FAB /* cerrouteIOS */;
+			targetProxy = 249599B62CFCCA2300290FAB /* PBXContainerItemProxy */;
+		};
+		249599C12CFCCA2300290FAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 249599A42CFCCA2000290FAB /* cerrouteIOS */;
+			targetProxy = 249599C02CFCCA2300290FAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		249599C72CFCCA2300290FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		249599C82CFCCA2300290FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		249599CA2CFCCA2300290FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"cerrouteIOS/Preview Content\"";
+				DEVELOPMENT_TEAM = L39V7KLTL6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = melikbilyay.cerrouteIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		249599CB2CFCCA2300290FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"cerrouteIOS/Preview Content\"";
+				DEVELOPMENT_TEAM = L39V7KLTL6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = melikbilyay.cerrouteIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		249599CD2CFCCA2300290FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L39V7KLTL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = melikbilyay.cerrouteIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cerrouteIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cerrouteIOS";
+			};
+			name = Debug;
+		};
+		249599CE2CFCCA2300290FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L39V7KLTL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = melikbilyay.cerrouteIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cerrouteIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cerrouteIOS";
+			};
+			name = Release;
+		};
+		249599D02CFCCA2300290FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L39V7KLTL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = melikbilyay.cerrouteIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cerrouteIOS;
+			};
+			name = Debug;
+		};
+		249599D12CFCCA2300290FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L39V7KLTL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = melikbilyay.cerrouteIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cerrouteIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		249599A02CFCCA2000290FAB /* Build configuration list for PBXProject "cerrouteIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				249599C72CFCCA2300290FAB /* Debug */,
+				249599C82CFCCA2300290FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		249599C92CFCCA2300290FAB /* Build configuration list for PBXNativeTarget "cerrouteIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				249599CA2CFCCA2300290FAB /* Debug */,
+				249599CB2CFCCA2300290FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		249599CC2CFCCA2300290FAB /* Build configuration list for PBXNativeTarget "cerrouteIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				249599CD2CFCCA2300290FAB /* Debug */,
+				249599CE2CFCCA2300290FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		249599CF2CFCCA2300290FAB /* Build configuration list for PBXNativeTarget "cerrouteIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				249599D02CFCCA2300290FAB /* Debug */,
+				249599D12CFCCA2300290FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2495999D2CFCCA2000290FAB /* Project object */;
+}
