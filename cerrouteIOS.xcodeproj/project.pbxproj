@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		242F66ED2CFF9B7C005A1F87 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242F66EC2CFF9B7C005A1F87 /* ColorExtensions.swift */; };
+		242F66EF2D00A75D005A1F87 /* CourseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242F66EE2D00A75D005A1F87 /* CourseService.swift */; };
 		249599A92CFCCA2000290FAB /* cerrouteIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249599A82CFCCA2000290FAB /* cerrouteIOSApp.swift */; };
 		249599AB2CFCCA2000290FAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249599AA2CFCCA2000290FAB /* ContentView.swift */; };
 		249599AD2CFCCA2300290FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 249599AC2CFCCA2300290FAB /* Assets.xcassets */; };
@@ -14,6 +16,12 @@
 		249599BA2CFCCA2300290FAB /* cerrouteIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249599B92CFCCA2300290FAB /* cerrouteIOSTests.swift */; };
 		249599C42CFCCA2300290FAB /* cerrouteIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249599C32CFCCA2300290FAB /* cerrouteIOSUITests.swift */; };
 		249599C62CFCCA2300290FAB /* cerrouteIOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249599C52CFCCA2300290FAB /* cerrouteIOSUITestsLaunchTests.swift */; };
+		249599D92CFCCC5500290FAB /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249599D82CFCCC5500290FAB /* ExploreView.swift */; };
+		249599DB2CFCCC5F00290FAB /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249599DA2CFCCC5F00290FAB /* SearchView.swift */; };
+		249599DD2CFCCC6800290FAB /* MyRouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249599DC2CFCCC6800290FAB /* MyRouteView.swift */; };
+		249599DF2CFCCC7100290FAB /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249599DE2CFCCC7100290FAB /* CalendarView.swift */; };
+		249599E12CFCCC7B00290FAB /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249599E02CFCCC7B00290FAB /* ProfileView.swift */; };
+		249599E52CFCDE8600290FAB /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249599E32CFCDE8600290FAB /* Course.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		242F66EC2CFF9B7C005A1F87 /* ColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		242F66EE2D00A75D005A1F87 /* CourseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseService.swift; sourceTree = "<group>"; };
 		249599A52CFCCA2000290FAB /* cerrouteIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cerrouteIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		249599A82CFCCA2000290FAB /* cerrouteIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cerrouteIOSApp.swift; sourceTree = "<group>"; };
 		249599AA2CFCCA2000290FAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +54,12 @@
 		249599BF2CFCCA2300290FAB /* cerrouteIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cerrouteIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		249599C32CFCCA2300290FAB /* cerrouteIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cerrouteIOSUITests.swift; sourceTree = "<group>"; };
 		249599C52CFCCA2300290FAB /* cerrouteIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cerrouteIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		249599D82CFCCC5500290FAB /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		249599DA2CFCCC5F00290FAB /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		249599DC2CFCCC6800290FAB /* MyRouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRouteView.swift; sourceTree = "<group>"; };
+		249599DE2CFCCC7100290FAB /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		249599E02CFCCC7B00290FAB /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		249599E32CFCDE8600290FAB /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24812CB82D0F4C6100F26046 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				242F66EE2D00A75D005A1F87 /* CourseService.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
 		2495999C2CFCCA2000290FAB = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +118,10 @@
 		249599A72CFCCA2000290FAB /* cerrouteIOS */ = {
 			isa = PBXGroup;
 			children = (
+				24812CB82D0F4C6100F26046 /* Service */,
+				249599E42CFCDE8600290FAB /* Models */,
+				249599D32CFCCB6B00290FAB /* Views */,
 				249599A82CFCCA2000290FAB /* cerrouteIOSApp.swift */,
-				249599AA2CFCCA2000290FAB /* ContentView.swift */,
 				249599AC2CFCCA2300290FAB /* Assets.xcassets */,
 				249599AE2CFCCA2300290FAB /* Preview Content */,
 			);
@@ -125,6 +151,28 @@
 				249599C52CFCCA2300290FAB /* cerrouteIOSUITestsLaunchTests.swift */,
 			);
 			path = cerrouteIOSUITests;
+			sourceTree = "<group>";
+		};
+		249599D32CFCCB6B00290FAB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				242F66EC2CFF9B7C005A1F87 /* ColorExtensions.swift */,
+				249599AA2CFCCA2000290FAB /* ContentView.swift */,
+				249599D82CFCCC5500290FAB /* ExploreView.swift */,
+				249599DA2CFCCC5F00290FAB /* SearchView.swift */,
+				249599DC2CFCCC6800290FAB /* MyRouteView.swift */,
+				249599DE2CFCCC7100290FAB /* CalendarView.swift */,
+				249599E02CFCCC7B00290FAB /* ProfileView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		249599E42CFCDE8600290FAB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				249599E32CFCDE8600290FAB /* Course.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +305,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				249599E52CFCDE8600290FAB /* Course.swift in Sources */,
+				249599DB2CFCCC5F00290FAB /* SearchView.swift in Sources */,
 				249599AB2CFCCA2000290FAB /* ContentView.swift in Sources */,
+				249599DF2CFCCC7100290FAB /* CalendarView.swift in Sources */,
+				249599D92CFCCC5500290FAB /* ExploreView.swift in Sources */,
+				242F66ED2CFF9B7C005A1F87 /* ColorExtensions.swift in Sources */,
+				249599DD2CFCCC6800290FAB /* MyRouteView.swift in Sources */,
+				249599E12CFCCC7B00290FAB /* ProfileView.swift in Sources */,
+				242F66EF2D00A75D005A1F87 /* CourseService.swift in Sources */,
 				249599A92CFCCA2000290FAB /* cerrouteIOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
